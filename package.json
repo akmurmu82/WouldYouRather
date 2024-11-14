@@ -1,0 +1,12 @@
+{
+  "name": "would-you-rather",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm run start-frontend\" \"npm run start-backend\"",
+    "start-frontend": "npm run start --prefix frontend",
+    "start-backend": "npm run start --prefix backend"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
